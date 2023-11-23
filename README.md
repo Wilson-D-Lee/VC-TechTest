@@ -8,9 +8,9 @@
 <br />
 <div>
   <!-- OMITTED LOGO LINK FOR BREVITY -->
-  <h3>VoucherCodes Automated Testing Framework</h3>
+  <h2>VoucherCodes Automated Testing Framework</h2>
 
-  <p align="center">
+  <p>
     Automating the VoucherCodes Search functionality for restaurant offers with a robust Cypress testing framework.
     <br />
     <!-- OMITTED DOC, DEMO, BUG, AND FEATURE REQUEST LINKS FOR BREVITY -->
