@@ -76,7 +76,7 @@ Cypress provides a seamless and productive testing experience, making it a prefe
 ### Installation
 1. Clone the repository
    ```sh
-   git clone [URL_of_the_repository]
+   git clone https://github.com/Wilson-D-Lee/VC-TechTest
    ```
 2. Install NPM packages
    ```sh
