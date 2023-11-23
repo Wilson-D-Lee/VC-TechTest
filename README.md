@@ -91,10 +91,6 @@ If Errors show you can follow the following steps:
 nvm install 18.17.0 # or higher version like 20.5.0
 nvm use 18.17.0
 ```
-1.2. And then you can try installing the latest npm again:
-```sh
-npm install npm@latest -g
-```
 
 2. Fixing npm permissions:
 Run the following commands to reset the npm cache and fix permissions:
