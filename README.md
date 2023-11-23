@@ -1,11 +1,5 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-
-<!-- PROJECT SHIELDS -->
-<!-- OMITTED FOR BREVITY -->
-
-<!-- PROJECT LOGO -->
-<br />
 <div>
   <!-- OMITTED LOGO LINK FOR BREVITY -->
   <h2>VoucherCodes Automated Testing Framework</h2>
