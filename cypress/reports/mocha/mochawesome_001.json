@@ -1,0 +1,129 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-11-23T15:54:11.601Z",
+    "end": "2023-11-23T15:54:34.081Z",
+    "duration": 22480,
+    "testsRegistered": 2,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "832bbae1-075a-467f-a4bc-a6b1fe8e2c61",
+      "title": "",
+      "fullFile": "cypress/integration/Search.feature",
+      "file": "cypress/integration/Search.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "76319ea7-a165-4dec-9fb8-06ba0038b78d",
+          "title": "Searching for local restaurants",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Successfully searching for local restaurants in London",
+              "fullTitle": "Searching for local restaurants Successfully searching for local restaurants in London",
+              "timedOut": null,
+              "duration": 2320,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "aedef38d-5ddd-497d-b3ad-9ba4c0ddc474",
+              "parentUUID": "76319ea7-a165-4dec-9fb8-06ba0038b78d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Successfully searching for local restaurants in Africa",
+              "fullTitle": "Searching for local restaurants Successfully searching for local restaurants in Africa",
+              "timedOut": null,
+              "duration": 6123,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: expected 'https://www.vouchercodes.co.uk/restaurant-vouchers/search?rd=2023-11-23&rp=2&rl=Africa' to not include 'https://www.vouchercodes.co.uk/restaurant-vouchers'",
+                "estack": "AssertionError: Timed out retrying after 4000ms: expected 'https://www.vouchercodes.co.uk/restaurant-vouchers/search?rd=2023-11-23&rp=2&rl=Africa' to not include 'https://www.vouchercodes.co.uk/restaurant-vouchers'\n    at OffersPage.verifyNegativeSearchResults (cypress/support/pageObjects/SearchPage.js:61:15)\n    at Context.eval (cypress/support/step_definitions/SearchSteps.js:20:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)",
+                "diff": null
+              },
+              "uuid": "c968ead0-cdb4-40aa-a4c3-78afaa483e67",
+              "parentUUID": "76319ea7-a165-4dec-9fb8-06ba0038b78d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "aedef38d-5ddd-497d-b3ad-9ba4c0ddc474"
+          ],
+          "failures": [
+            "c968ead0-cdb4-40aa-a4c3-78afaa483e67"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 8443,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mocha",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
