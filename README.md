@@ -4,6 +4,11 @@
   <!-- OMITTED LOGO LINK FOR BREVITY -->
   <h2>VoucherCodes Automated Testing Framework</h2>
 
+  <h3>Built by - Wilson Lee</h3>
+
+  [![LinkedIn][linkedin-shield]][linkedin-url] 
+
+
   <p>
     Automating the VoucherCodes Search functionality for restaurant offers with a robust Cypress testing framework.
     <br />
@@ -112,11 +117,6 @@ This will create an HTML report in the `cypress/reports` directory.
 - [ ] Add more test scenarios
 - [ ] Enhance CI/CD integration
 
-## Built By 
-
-Wilson Lee
-
-[![LinkedIn][linkedin-shield]][linkedin-url] 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-blue.svg?style=for-the-badge&logo=linkedin&colorB=555
