@@ -6,7 +6,7 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
+<div>
   <!-- OMITTED LOGO LINK FOR BREVITY -->
   <h3>VoucherCodes Automated Testing Framework</h3>
 
