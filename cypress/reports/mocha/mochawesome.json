@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 1,
-    "start": "2023-11-23T15:08:01.392Z",
-    "end": "2023-11-23T15:08:24.190Z",
-    "duration": 22798,
+    "start": "2023-11-23T16:26:24.018Z",
+    "end": "2023-11-23T16:26:48.222Z",
+    "duration": 24204,
     "testsRegistered": 2,
     "passPercent": 50,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "90daf651-a845-437b-a03c-4ce0aa15a68a",
+      "uuid": "0aa60a86-32ca-4ca5-ac47-ff0c32303943",
       "title": "",
       "fullFile": "cypress/integration/Search.feature",
       "file": "cypress/integration/Search.feature",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "ef622358-e542-4384-8843-1b67532c6d07",
+          "uuid": "2fe404f4-670c-4b92-9301-7d89a23ecb48",
           "title": "Searching for local restaurants",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Successfully searching for local restaurants in London",
               "fullTitle": "Searching for local restaurants Successfully searching for local restaurants in London",
               "timedOut": null,
-              "duration": 2454,
+              "duration": 2589,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "600d858b-8a9b-4791-bff8-b2b0b43d383f",
-              "parentUUID": "ef622358-e542-4384-8843-1b67532c6d07",
+              "uuid": "d677b8b7-88dd-44d8-804f-6a3cb4b8507a",
+              "parentUUID": "2fe404f4-670c-4b92-9301-7d89a23ecb48",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Successfully searching for local restaurants in Africa",
               "fullTitle": "Searching for local restaurants Successfully searching for local restaurants in Africa",
               "timedOut": null,
-              "duration": 6341,
+              "duration": 6554,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -69,22 +69,22 @@
                 "estack": "AssertionError: Timed out retrying after 4000ms: expected 'https://www.vouchercodes.co.uk/restaurant-vouchers/search?rd=2023-11-23&rp=2&rl=Africa' to not include 'https://www.vouchercodes.co.uk/restaurant-vouchers'\n    at OffersPage.verifyNegativeSearchResults (cypress/support/pageObjects/SearchPage.js:61:15)\n    at Context.eval (cypress/support/step_definitions/SearchSteps.js:20:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)",
                 "diff": null
               },
-              "uuid": "8def5815-ae42-45e0-b74e-8c47f56defdb",
-              "parentUUID": "ef622358-e542-4384-8843-1b67532c6d07",
+              "uuid": "6903ef9c-5339-4ff4-b6e3-04d4c837e3b9",
+              "parentUUID": "2fe404f4-670c-4b92-9301-7d89a23ecb48",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "600d858b-8a9b-4791-bff8-b2b0b43d383f"
+            "d677b8b7-88dd-44d8-804f-6a3cb4b8507a"
           ],
           "failures": [
-            "8def5815-ae42-45e0-b74e-8c47f56defdb"
+            "6903ef9c-5339-4ff4-b6e3-04d4c837e3b9"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 8795,
+          "duration": 9143,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
