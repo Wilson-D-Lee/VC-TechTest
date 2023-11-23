@@ -136,11 +136,3 @@ Wilson Lee
 [Gherkin.io]: https://img.shields.io/badge/Gherkin-23D96C?style=for-the-badge&logo=cucumber&logoColor=white
 [Gherkin-url]: https://cucumber.io/docs/gherkin/
 
-<!-- OMITTED CONTRIBUTING, LICENSE, CONTACT, AND ACKNOWLEDGMENTS SECTIONS FOR BREVITY -->
-
-
-<!-- OMITTED FOR BREVITY --># VoucherCodes-TechTest
-# VoucherCodes-TechTest
-# VoucherCodes-TechTest
-# VC-TechTest
-# VC-TechTest
