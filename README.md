@@ -1,45 +1,28 @@
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+<!-- PROJECT SHIELDS -->
+<!-- OMITTED FOR BREVITY -->
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/your_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Cypress with Cucumber Test Suite</h3>
+  <!-- OMITTED LOGO LINK FOR BREVITY -->
+  <h3 align="center">VoucherCodes Automated Testing Framework</h3>
 
   <p align="center">
-    A robust test suite combining the power of Cypress and Cucumber for end-to-end testing!
+    Automating the VoucherCodes Search functionality for restaurant offers with a robust Cypress testing framework.
     <br />
-    <a href="https://github.com/your_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/your_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/your_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/your_username/repo_name/issues">Request Feature</a>
+    <!-- OMITTED DOC, DEMO, BUG, AND FEATURE REQUEST LINKS FOR BREVITY -->
   </p>
 </div>
 
+<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
@@ -47,47 +30,54 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <!-- OMITTED CONTRIBUTING, LICENSE, CONTACT, AND ACKNOWLEDGMENTS FOR BREVITY -->
   </ol>
 </details>
 
+<!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Cypress with Cucumber][product-screenshot]](https://example.com)
-
-This project is a template for setting up a Cypress with Cucumber end-to-end testing environment. It's designed to facilitate Behavior-Driven Development (BDD) practices and streamline the testing process for web applications.
+The VoucherCodes Automated Testing Framework is designed to validate the search functionality for local restaurant offers. The framework integrates Cypress with Gherkin syntax and follows the Page Object Model for clear, maintainable test structure. It includes Mochawesome for reporting and captures screenshots and screen recordings for failing tests to assist in debugging.
 
 ### Built With
+[![Cypress][Cypress.io]][Cypress-url]
+[![Mochawesome][Mochawesome.com]][Mochawesome-url] 
+[![JavaScript][JavaScript.com]][JavaScript-url] 
+[![Gherkin][Gherkin.io]][Gherkin-url]
 
-This project is built with the following frameworks and libraries:
+### Why Cypress?
 
-* [Cypress](https://www.cypress.io/)
-* [Cucumber](https://cucumber.io/)
-* [Node.js](https://nodejs.org/)
+Cypress is a powerful testing framework designed with modern web applications in mind. Its key strengths include:
+
+- **Direct Access**: Tests are executed in the same run loop as the application, offering more direct control and observation.
+- **No Waiting**: Cypress automatically waits for elements to become interactable, eliminating flakiness caused by timing issues.
+- **Rich Debugging**: Clear error messages and built-in tools make diagnosing problems straightforward.
+- **Built-in Mocking and Stubbing**: Simplify testing by controlling the behavior of network requests and responses.
+- **Consistency**: Delivers consistent results by running in the application’s native context, both locally and in CI.
+- **Visual Feedback**: Automatically captures screenshots of failures and records videos of test runs, aiding in quick issue resolution.
+
+Cypress provides a seamless and productive testing experience, making it a preferred choice for modern JavaScript frameworks.
+
+---
+
+### Demo of run:
+<img src="./assets/demo.gif" alt="Logo" styled="max-width: 100%; height: auto;">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running, follow these simple steps.
-
 ### Prerequisites
-
-Make sure you have the latest version of Node.js and npm installed on your system.
-
-* npm
+- Node.js (latest LTS version recommended)
+- npm
   ```sh
   npm install npm@latest -g
   ```
 
 ### Installation
-
-1. Clone the repo
+1. Clone the repository
    ```sh
-   git clone https://github.com/your_username/repo_name.git
+   git clone [URL_of_the_repository]
    ```
 2. Install NPM packages
    ```sh
@@ -96,65 +86,57 @@ Make sure you have the latest version of Node.js and npm installed on your syste
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this section to instruct how to use the test suite, including examples of running tests interactively and headlessly.
-
-_For more examples, please refer to the [Documentation](https://cypress.io/documentation)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Roadmap
-
-- [x] Setup initial Cypress and Cucumber framework
-- [ ] Add additional test scenarios and examples
-- [ ] Integrate with Continuous Integration tools
-- [ ] Enhance reporting features
-
-See the [open issues](https://github.com/your_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Contributing
-
-
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Acknowledgments
-
-* [Cypress Documentation](https://docs.cypress.io)
-* [Cucumber Documentation](https://cucumber.io/docs)
-* [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
-* [GitHub Pages](https://pages.github.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/your_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/your_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/your_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/your_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/your_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/your_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/your_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/your_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/your_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/your_username/repo_name/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/your_name
-[product-screenshot]: images/screenshot.png
+### Running the Tests
+To run the tests, execute the following command:
+```sh
+npx cypress run
+```
+For interactive test execution, open Cypress Test Runner:
+```sh
+npx cypress open
 ```
 
-Remember to replace the placeholders such as `your_username`, `repo_name`, `your_name`, and any URLs or paths with your actual GitHub username, repository name, personal contact information, and paths to your screenshots or resources. Also, update the `Acknowledgments` section with any resources you have used or found helpful.
+### Generating Reports
+Generate reports after test execution with Mochawesome:
+```sh
+npx mochawesome-merge "cypress/reports/mocha/*.json" > "cypress/reports/mochawesome.json"
+npx marge cypress/reports/mochawesome.json --reportDir cypress/reports
+```
+This will create an HTML report in the `cypress/reports` directory.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ROADMAP -->
+## Roadmap
+- [x] Automate search functionality tests for VoucherCodes
+- [x] Integrate Mochawesome reporting
+- [x] Implement screenshot and video capture on test failure
+- [ ] Implement Code coverage for better debugging using @cypress/code-coverage
+- [ ] Add more test scenarios
+- [ ] Enhance CI/CD integration
+
+## Built By 
+
+Wilson Lee
+
+[![LinkedIn][linkedin-shield]][linkedin-url] 
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-blue.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/wilson-d-lee/
+[Cypress.io]: https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white
+[Cypress-url]: https://cypress.io/
+[Mochawesome.com]: https://img.shields.io/badge/Mochawesome-00C88C?style=for-the-badge&logo=mochawesome&logoColor=white
+[Mochawesome-url]: https://github.com/adamgruber/mochawesome
+[JavaScript.com]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[Gherkin.io]: https://img.shields.io/badge/Gherkin-23D96C?style=for-the-badge&logo=cucumber&logoColor=white
+[Gherkin-url]: https://cucumber.io/docs/gherkin/
+
+<!-- OMITTED CONTRIBUTING, LICENSE, CONTACT, AND ACKNOWLEDGMENTS SECTIONS FOR BREVITY -->
+
+
+<!-- OMITTED FOR BREVITY --># VoucherCodes-TechTest
