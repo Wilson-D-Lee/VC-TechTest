@@ -70,7 +70,7 @@ Cypress provides a seamless and productive testing experience, making it a prefe
 - Node.js (latest LTS version recommended)
 - npm
   ```sh
-  npm install npm@latest -g
+  sudo npm install npm@latest -g
   ```
 
 ### Installation
@@ -82,6 +82,52 @@ Cypress provides a seamless and productive testing experience, making it a prefe
    ```sh
    npm install
    ```
+
+### Error Handling
+If Errors show you can follow the following steps:
+
+1. upgrade Node.js, here's a command to do it with `nvm`:
+```sh
+nvm install 18.17.0 # or higher version like 20.5.0
+nvm use 18.17.0
+```
+1.2. And then you can try installing the latest npm again:
+```sh
+npm install npm@latest -g
+```
+
+2. Fixing npm permissions:
+Run the following commands to reset the npm cache and fix permissions:
+```bash
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+```
+
+3. Fixing ownership:
+Ensure that the ownership of the npm-related directories is set to your user account, not to the root user. Run the following commands to change ownership:
+```bash
+sudo chown -R $(whoami) ~/.npm
+sudo chown -R $(whoami) /usr/local/lib/node_modules
+```
+
+4. Fixing the Cypress binary permissions:
+It seems like the Cypress binary doesn't have executable permissions. Try the following commands:
+```bash
+chmod +x /Users/wilson/Library/Caches/Cypress/13.5.1/Cypress.app/Contents/MacOS/Cypress
+```
+
+5. Clear Cypress cache and reinstall:
+Clear the Cypress cache and reinstall it to ensure a clean setup:
+```bash
+npx cypress cache clear
+npm install cypress --save-dev
+```
+6. Run Cypress:
+Now, try running Cypress again:
+```bash
+npx cypress run
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
