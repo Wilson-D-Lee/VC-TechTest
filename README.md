@@ -8,7 +8,7 @@
 <br />
 <div align="center">
   <!-- OMITTED LOGO LINK FOR BREVITY -->
-  <h3 align="center">VoucherCodes Automated Testing Framework</h3>
+  <h3>VoucherCodes Automated Testing Framework</h3>
 
   <p align="center">
     Automating the VoucherCodes Search functionality for restaurant offers with a robust Cypress testing framework.
